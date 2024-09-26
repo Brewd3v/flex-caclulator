@@ -13,7 +13,7 @@ export default function Home() {
       <div className="prose lg:prose-xl prose-h1:text-3xl mx-auto py-12 px-4">
         <h1>Loan Repayment Calculator for Monzo Flex</h1>
         <p className="underline">This is not an official Monzo product, and is not endorsed by them in any way.</p>
-        <p>Noticed other are also searching for a flex calculator.</p>
+        <p>Noticed others are also searching for a flex calculator.</p>
         <p>As of today, my flex interest rate is 24%. Things could change anytime so please use the most current rate for the best estimates.</p>
       </div>
       <div className="max-w-3xl mx-auto px-4 pb-24">
