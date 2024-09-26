@@ -37,7 +37,7 @@ export default function LoanCalculator() {
                         id="loan-amount"
                         type="number"
                         value={loanAmount}
-                        onChange={(e: any) => setLoanAmount(Number(e.target.value))}
+                        onChange={(e) => setLoanAmount(Number(e.target.value))}
                     />
                 </div>
                 <div>
@@ -46,7 +46,7 @@ export default function LoanCalculator() {
                         id="interest-rate"
                         type="number"
                         value={interestRate}
-                        onChange={(e: any) => setInterestRate(Number(e.target.value))}
+                        onChange={(e) => setInterestRate(Number(e.target.value))}
                     />
                 </div>
                 <div>
@@ -55,7 +55,7 @@ export default function LoanCalculator() {
                         id="shared-count"
                         type="number"
                         value={sharedCount}
-                        onChange={(e: any) => setSharedCount(Number(e.target.value))}
+                        onChange={(e) => setSharedCount(Number(e.target.value))}
                     />
                 </div>
             </div>

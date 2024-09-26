@@ -1,4 +1,3 @@
-import Head from "next/head";
 import LoanCalculator from "./calculator";
 
 import type { Metadata } from 'next'
